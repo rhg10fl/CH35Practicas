@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+
+    <link rel="stylesheet" href="./assets/Style/style.css">
+
+</head>
+<body>
+
+
+<!--
+Tenemos tres formas dinstintas de agregar estilos a un documento html
+
+Inline (en línea)
+
+Para trabajar con los estilos in line utilizamos la palabra reservada style y con esto ya le damos la instrucción de lo que queremos añadir.
+Tiene mayor jerarquía sobre la etiqueta style
+
+-->
+
+    <h1>inline</h1>
+    <p style="background-color: aquamarine;color: blueviolet; font-size: xx-large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla libero, placeat alias accusamus eveniet numquam, molestiae architecto consequatur quam voluptates dolores ratione. Alias, eligendi? Repellat fugiat facere assumenda fuga totam!</p>
+
+<!-- Utilizando la etiqueta <style>
+
+    Cuando usamos los estilos demtro de la etiqueta style, "separamos" los estilos de etiqueta, para mantener un código limpio y claro.
+
+-->
+<style>
+
+    body {
+        background-color: brown;
+    }
+
+</style>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit consectetur a rem at omnis exercitationem nisi, non atque voluptate ad, corrupti voluptates aliquam incidunt ipsum, ducimus voluptatum est nobis!</p>
+
+    <!--Referencia a un documento de estilos extern (buena práctica)
+
+        código más limpio
+        código más entendible
+        velocidad de lectura en nuestra página
+        escalabilidad
+
+        Utilizar estilos de un documento externo significa que vamos a tener dos documentos; uno para html - index.html con la estructura  y, por otro lado, tenemos el documento llamado style.css para darle estilo
+
+-->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatem corporis minima amet, quae distinctio qui? Iure mollitia ea quaerat doloremque. Rem et neque perspiciatis voluptatibus facilis rerum dolor exercitationem!</p>
+
+<!--clases y ID
+
+    todos pertenecemos a la clase CH35 
+    muestro ID sería nuestro nombre
+
+la palabra reservada class (.)
+La palabra reservada  id (#)
+-->
+
+<div class="G1">
+
+<h2 class="CH35" id="Rey">Rey</h2>
+<h2 class="CH35" id="Uriel">Uriel</h2>
+
+
+</div>
+
+<div class="G2">
+
+<h2 class="CH35" id="Rene">Rene</h2>
+<h2 class="CH35" id="Marco">Marco</h2>
+
+</div>
+
+
+
+
+    <!--
+El modelo de caja nos permite establecer el diseño de nuestros sitios web, ya que nuestros elementos se presentan en formas rectangulares y de esta forma podemos modificar el aspecto. tamaño, diseño, etc.
+    -->
+
+</body>
+</html>

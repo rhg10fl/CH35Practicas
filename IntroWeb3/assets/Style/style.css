@@ -1,0 +1,34 @@
+p{
+    background-color: sandybrown;
+}
+
+#Rey{
+    color:blueviolet
+}
+
+#Rene{
+    color:aqua
+}
+
+.CH35{
+    color:green
+}
+
+
+.G1{
+    width: 150;
+    height: 150;
+    margin: 15px 15px;
+    padding: 30px;
+    border: solid papayawhip;
+}
+
+.G2{
+    width: 150;
+    height: 150;
+    margin: 15px 15px;
+    padding: 30px;
+    border: solid cornflowerblue;
+}
+
+/* Un ID se utiliza para seleccionar un solo elemento, mientras que una clase se utiliza para seleccionar más de un elemento. Es como si aplicaras un "IN LINE" pero en CSS :) */

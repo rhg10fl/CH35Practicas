@@ -1,0 +1,31 @@
+/*Css aplicado a etiquetas*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Css aplicado a ID*/
+#recetaMerengue {
+    color: green;
+}
+
+#recetaHelado {
+    color: rgb(172, 135, 33);
+}
+
+#recetaPastel {
+    color: rgb(245, 78, 223);
+}
+
+/*Css aplicado a clases*/
+.recetario {
+    text-align: center;
+    border-color: chocolate;
+    border-width: 2px;
+    border-style: double;
+}
+
+.ingredientes,
+.pasos {
+    color: dodgerblue;
+    font-weight: bolder;
+}
