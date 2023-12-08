@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopción</title>
+    <link rel="stylesheet" href="./ASSETS/Style/formulario.css">
+</head>
+<body>
+    <main>
+        <h2>Formulario de Adopción</h2>
+        <form action="">
+            <div><!--Div Sección 1-->
+                <div class="contenedor-img"><!--Elemento 1-->
+                    <img src="./ASSETS/img/header.jpg" width="200px" alt="">
+                </div>
+                <div><!--Elemento 2-->
+                    <ul>
+                        <li>
+                            <label for="numero">Formulario No.</label>
+                            <input type="number" name="numero">
+                        </li>
+                        <li>
+                            <label for="fecha">Fecha</label>
+                            <input type="date" name="fecha">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div><!--Div Sección 2-->
+                <div><!--Instrucciones-->
+                    <p>
+                        Se recomienda a las personas interesadas en adoptar, la importancia de diligenciar este
+                        documento en
+                        su
+                        totalidad y cumplir con lo contemplado para realizar la adopción. Los peludos colocados en
+                        adopción
+                        son
+                        animales callejeros abandonados, no son regalados, tampoco son comprados; los requisitos aqui
+                        contenidos
+                        deben observarse de manera responsable, de acuerdo con lo dispuesto en la Ley 84 de 1989 del
+                        Estatuto
+                        Nacional de Protección Animal y la Ley 1774 del 6 de Enero de 2016. Esperamos ubicar a cada
+                        peludito
+                        en
+                        un hogar y a cargo de un adoptante adecuado.
+                    </p>
+                    <p>Este formulario debe ser diligenciado por una persona mayor a 18 años. No es posible hacer
+                        solicitud
+                        a
+                        nombre de terceras personas. Por favor diligenciar en letra clara.</p>
+                </div>
+                <div><!--Contenedor Datos Personales-->
+                    <table border="1" class="cube"><!--Contenedor Datos Personales-->
+                        <thead><!--Agrupa los elementos de la cabecera en la tabla-->
+                            <tr>
+                                <th colspan="4">1. Datos Personales</th>
+                                <!--El atributo colapsan permite expandir las celdades de datos al numero de columnas que deseamos ocupe-->
+                            </tr>
+                        </thead><!--Agrupa los elementos de contenido en la tabla-->
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <label for="nombre">Nombre completo</label>
+                                    <input type="text" name="nombre">
+                                </td>
+                                <td colspan="1">
+                                    <label for="edad">Edad</label>
+                                    <input type="number" name="edad">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <label for="direccion">Dirección exacta donde estará el peludito</label>
+                                    <input type="text" name="direccion">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label for="ocupacion">Ocupación</label>
+                                    <input type="text" name="ocupacion">
+                                </td>
+                                <td colspan="2">
+
+                                    <label for="correo">Email</label>
+                                    <input type="email" name="correo">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label for="num_celular">Celular</label>
+                                    <input type="tel" name="num_celular">
+                                </td>
+                                <td colspan="1">
+                                    <label for="num_casa">Casa</label>
+                                    <input type="tel" name="num_casa">
+                                </td>
+                                <td colspan="1">
+                                    <label for="num_trabajo">Trabajo</label>
+                                    <input type="tel" name="num_trabajo">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <p>Nivel de estudios</p>
+                                    <label for="nivel_estudios">Técnico</label>
+                                    <input type="radio" name="nivel_estudios">
+                                    <label for="nivel_estudios">Tecnólogo</label>
+                                    <input type="radio" name="nivel_estudios">
+                                    <label for="nivel_estudios">Profesional</label>
+                                    <input type="radio" name="nivel_estudios">
+                                    <label for="nivel_estudios">Posgrado</label>
+                                    <input type="radio" name="nivel_estudios">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div><!--Contenedor Referencias-->
+                    <table border="1" class="cube">
+                        <thead>
+                            <tr>
+                                <th colspan="4">2. Referencias</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="1">
+                                    <label for="referencia_personal">Referencia Personal</label>
+                                    <input type="text" name="referencia_personal">
+                                </td>
+                                <td colspan="1">
+                                    <label for="referencia_personal_tel">Teléfono</label>
+                                    <input type="tel" name="referencia_personal_tel">
+                                </td>
+                                <td colspan="1">
+                                    <label for="relacion">Relación</label>
+                                    <input type="texto" name="relacion">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="referencia_familiar">Referencia Familiar</label>
+                                    <input type="text" name="referencia_familiar">
+                                </td>
+                                <td>
+                                    <label for="referencia_familiar_tel">Teléfono</label>
+                                    <input type="tel" name="referencia_familiar_tel">
+                                </td>
+                                <td>
+                                    <label for="parentesco">Parentesco</label>
+                                    <input type="text" name="parentesco">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div><!--Contenedor Situación Personal-->
+                    <div>
+                        <div>
+                            <p>Mencione las personas con quien vive</p>
+                            <table border="1" class="cube">
+                                <thead>
+                                    <th colspan="1">Nombre</th>
+                                    <th colspan="1">Edad</th>
+                                    <th colspan="1">Parentesco</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="1">
+                                            <label for="persona1"></label>
+                                            <input type="text" name="persona1">
+                                        </td>
+                                        <td colspan="1">
+                                            <label for="edad1"></label>
+                                            <input type="text" name="edad1">
+                                        </td>
+                                        <td colspan="1">
+                                            <label for="parentesco1"></label>
+                                            <input type="text" name="parentesco1">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1">
+                                            <label for="persona1"></label>
+                                            <input type="text" name="persona1">
+                                        </td>
+                                        <td colspan="1">
+                                            <label for="edad1"></label>
+                                            <input type="text" name="edad1">
+                                        </td>
+                                        <td colspan="1">
+                                            <label for="parentesco1"></label>
+                                            <input type="text" name="parentesco1">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Algùn familiar espera un bebé</p>
+                                <label for="bebe">Si</label>
+                                <input type="radio" name="bebe">
+                                <label for="bebe">No</label>
+                                <input type="radio" name="bebe">
+                            </div>
+                            <div>
+                                <p>¿En su hogar alguien es alérgico o sufre de asma?</p>
+                                <label for="asma">Si</label>
+                                <input type="radio" name="asma">
+                                <label for="asma">No</label>
+                                <input type="radio" name="asma">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div><!--Contenedor Domicilio-->
+                    <div>
+                        <div>
+                            <p>¿Qué tipo de inmueble posee? (Especifique metros cuadrados)</p>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <label for="casa">Casa</label>
+                                        <input type="checkbox" name="casa">
+                                    </div>
+                                    <div>
+                                        <label for="casa_m2">m2</label>
+                                        <input type="number" name="casa_m2">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <label for="apartamento">Apartamento</label>
+                                        <input type="checkbox" name="apartamento">
+                                    </div>
+                                    <div>
+                                        <label for="apartamento_m2">m2</label>
+                                        <input type="number" name="apartamento_m2">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <label for="finca">Finca</label>
+                                        <input type="checkbox" name="finca">
+                                    </div>
+                                    <div>
+                                        <label for="finca_m2">m2</label>
+                                        <input type="number" name="finca_m2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="inmueble">Propio</label>
+                                <input type="radio" name="inmueble">
+                                <label for="inmueble">Arrendado</label>
+                                <input type="radio" name="inmueble">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>¿Planea mudarse próximamente?</p>
+                                <label for="mudarse">Si</label>
+                                <input type="radio" name="mudarse">
+                                <label for="mudarse">No</label>
+                                <input type="radio" name="mudarse">
+                            </div>
+                            <div>
+                                <p>Si el lugar donde estarà el peludito es finca, ¿tiene cerramiento?</p>
+                                <label for="cerramiento">Si</label>
+                                <input type="radio" name="cerramiento">
+                                <label for="inmueble">No</label>
+                                <input type="radio" name="cerramiento">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Si es arrendatario, coloque nombre y teléfono del dueño de casa</p>
+                        </div>
+                        <div>
+                            <label for="dueño_inmueble">Nombre del sueño de inmueble</label>
+                            <input type="text" name="dueño_inmueble">
+                        </div>
+                        <div>
+                            <label for="dueño_telefono">Teléfono</label>
+                            <input type="tel" name="dueño_telefono">
+                        </div>
+                        <div>
+                            <div>
+                                <p>El lugar donde vivirá el peludito, posee:</p>
+                                <label for="lugar">Patio</label>
+                                <input type="checkbox" name="lugar">
+                                <label for="lugar">Terreza</label>
+                                <input type="checkbox" name="lugar">
+                                <label for="lugar">Jardín</label>
+                                <input type="checkbox" name="lugar">
+                            </div>
+                            <div>
+                                <p>¿Es cubierto?</p>
+                                <label for="cubierto">Si</label>
+                                <input type="radio" name="cubierto">
+                                <label for="cubierto">No</label>
+                                <input type="radio" name="cubierto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div><!--Contenedor Botón-->
+                    <div>
+                        <button>Enviar</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

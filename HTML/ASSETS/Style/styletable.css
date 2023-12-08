@@ -1,0 +1,24 @@
+body {
+    background-image: url(https://img.freepik.com/vector-premium/copos-nieve-fondo-nieve-nieve-navidena-ano-nuevo-ilustracion-vectorial_199784-509.jpg)
+}
+
+.tabla {
+    border: 4px;
+    border-style:double;
+    border-collapse: collapse;
+    border-color: coral;
+    text-align: center;
+    width: 100%;
+    margin: 5px 5px;
+    background-image:url(https://i.pinimg.com/736x/cb/99/79/cb99790863665e463cb34247c4b2da86.jpg)
+}
+
+.title {
+    color: sienna;
+    background-image: url(https://i.pinimg.com/736x/d2/a6/89/d2a68957a2160afdd7c989bf77576ad4.jpg);
+}
+
+.error{
+    color: darkred;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210204/pngtree-fashion-pink-diagonal-lines-background-image_555210.jpg); 
+}

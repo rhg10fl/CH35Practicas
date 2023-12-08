@@ -1,0 +1,30 @@
+body{
+    background-color: lightcyan;
+}
+
+.Formulario {
+    color: teal; 
+    text-align-last: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.line {
+  width: auto;
+  background-image: url(https://i.pinimg.com/474x/5d/89/2f/5d892f1da1f4b3c5cd5b88a6c2a0d2db.jpg);
+  color: purple;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  border-radius: 15px;
+
+  
+
+}
+
+.Casilla {
+    text-align: center;
+}
+
+#Telefono {
+    text-align: center;
+}

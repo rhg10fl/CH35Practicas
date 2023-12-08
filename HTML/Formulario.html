@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE ADOPCIÓN</title>
+    <link rel="stylesheet" href="./ASSETS/Style/styleformulario.css">
+</head>
+
+<body>
+    
+    <div> 
+        <h1 class="Formulario">FORMULARIO DE ADOPCIÓN</h1>
+    </div>
+        <form action="/procesar_formulario" method="post">
+
+    <fieldset class="line">
+        <legend class="Casilla">Datos Personales</legend>
+        <div class="form">
+            <label for="name">Nombre</label>
+            <input type="text" name="Nombre" placeholder="Nombre Completo">
+            <label for="name">Edad</label>
+            <input type="number" name="edad" placeholder="Edad">
+            <br>
+            <br>
+            <label for="name">Domiclio</label>
+            <input type="text" name="Nombre" placeholder="Calle-Número"> <input type="name" name="Nombre" placeholder="Alcaldía y Código Postal">
+            <br>
+            <br> 
+            <label for="name">Ocupación</label>
+            <input type="text" name="Ocupación" placeholder="Ocupación"> 
+            <label for="name">Nivel de Estudios</label>
+            <select>
+                <option value="---">Elige una opción</option>
+                <option value="Sin Estudio">Sin estudios</option>
+                <option value="Básico">Básico</option>
+                <option value="Medio-Superior">Medio Superior</option>
+                <option value="Superior">Superior</option>
+          </select> 
+        </div>
+    </fieldset>
+<br>
+<br>
+    <fieldset class="line">
+        <legend class="Casilla">Datos de Contacto</legend>
+        <div class="form">
+            <label for="name">E-Mail</label>
+            <input type="text" name="email" placeholder="Correo electrónico">
+            <br>
+            <br>
+            <label for="name">Teléfono</label>
+            <select>
+                <option value="---">Elige una opción</option>
+                <option value="Celular">Celular</option>
+                <option value="Casa">Casa</option>
+                <option value="Trabajo">Trabajo</option>
+                <option value="otro">Otro</option>
+          </select> 
+            <input type="text" name="Número1" placeholder="Número Telefónico">
+            <select>
+                <option value="---">Elige una opción</option>
+                <option value="Celular">Celular</option>
+                <option value="Casa">Casa</option>
+                <option value="Trabajo">Trabajo</option>
+                <option value="otro">Otro</option>
+          </select> 
+            <input type="text" name="Número2" placeholder="Número Telefónico">
+        </div>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset class="line">
+        <legend class="Casilla">Referencias</legend>
+        <div class="form">
+
+          <label for="name">Nombre</label>
+          <input type="text" name="Nombre" placeholder="Nombre Completo">
+          <label for="name">Domicilio</label>
+          <input type="text" name="Domicilio" placeholder="Dirección completa">
+          <br>
+          <br>
+          <label for="name">Teléfono</label>
+          <select>
+              <option value="---">Elige una opción</option>
+              <option value="Celular">Celular</option>
+              <option value="Casa">Casa</option>
+              <option value="Trabajo">Trabajo</option>
+              <option value="otro">Otro</option>
+        </select> 
+        <input type="text" name="Número1" placeholder="Número Telefónico">
+          <br>
+          <br>
+          <label for="name">Nombre</label>
+          <input type="text" name="Nombre" placeholder="Nombre Completo">
+          <label for="name">Domicilio</label>
+          <input type="text" name="Domicilio" placeholder="Dirección completa">
+          <br>
+          <br>
+          <label for="name">Teléfono</label>
+          <select>
+              <option value="---">Elige una opción</option>
+              <option value="Celular">Celular</option>
+              <option value="Casa">Casa</option>
+              <option value="Trabajo">Trabajo</option>
+              <option value="otro">Otro</option>
+        </select> 
+        <input type="text" name="Número1" placeholder="Número Telefónico">
+        </div>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset class="line">
+        <legend class="Casilla">Situación Personal</legend>
+        <div class="form">
+
+          <label for="name">¿Qué tipo de inmueble posee?</label>
+          <input type="radio" id="Choice1" name="contact" value="si" />
+          <label for="contactChoice1">Casa</label>
+          <input type="radio" id="Choice2" name="contact" value="no" />
+          <label for="contactChoice1">Apartamento</label>
+          <input type="radio" id="Choice3" name="contact" value="no" />
+          <label for="contactChoice1">Otro</label> <input type="text" name="respuesta" placeholder="Especifique cuál">
+          <br>
+          <br>
+          <label for="name">El lugar ¿es propio o arrendado?</label>
+          <input type="text" name="respuesta" placeholder="Indique la respuesta">
+          <br>
+          <br>
+          <label for="name">¿Cuántos habitantes residen en el hogar?</label>
+          <input type="number" name="number" placeholder="Habitantes del hogar">
+          <br>
+          <br>
+          <label for="name">¿En su hogar alguien es alérgico a los animales o
+            sufre de asma? Si la respuesta es positiva, por favor especifique a qué es alérgico</label>
+            <br>
+            <br>
+          <input type="radio" id="Choice1" name="contact" value="si" />
+        <label for="contactChoice1">Sí</label>
+        <input type="radio" id="Choice2" name="contact" value="no" />
+        <label for="contactChoice1">No</label>
+        <input type="text" name="respuesta" placeholder="NA si respuesta es NO">
+        <br>
+        <br>
+          <label for="name">¿Algún familiar espera un bebé?</label>
+          <input type="radio" id="Choice1" name="contact" value="si" />
+          <label for="contactChoice1">Sí</label>
+
+          <input type="radio" id="Choice2" name="contact" value="no" />
+          <label for="contactChoice1">No</label>
+        <br>
+        <br>
+          <label for="name">¿Actualmente tiene otras mascotas?</label>
+            <br>
+            <br>
+          <input type="radio" id="Choice1" name="contact" value="si" />
+        <label for="contactChoice1">Sí</label>
+        <input type="radio" id="Choice2" name="contact" value="no" />
+        <label for="contactChoice1">No</label>
+        <label for="name">¿Cuáles?</label>
+        <input type="text" name="respuesta" placeholder="NA si respuesta es NO">
+        <br>
+        <br>
+        <br>
+        <br>
+          <label for="name">¿Actualmente tiene otras mascotas?</label>
+            <br>
+            <br>
+          <input type="radio" id="Choice1" name="contact" value="si" />
+        <label for="contactChoice1">Sí</label>
+        <input type="radio" id="Choice2" name="contact" value="no" />
+        <label for="contactChoice1">No</label>
+        <label for="name">¿Cuáles?</label>
+        <input type="text" name="respuesta" placeholder="NA si respuesta es NO">
+        <br>
+        <br>
+          <label for="name">¿Actualmente tiene otras mascotas?</label>
+            <br>
+            <br>
+          <input type="radio" id="Choice1" name="contact" value="si" />
+        <label for="contactChoice1">Sí</label>
+        <input type="radio" id="Choice2" name="contact" value="no" />
+        <label for="contactChoice1">No</label>
+        <label for="name">¿Cuáles?</label>
+        <input type="text" name="respuesta" placeholder="NA si respuesta es NO">
+        <br>
+        <br>
+
+
+    </fieldset>
+    <br>
+    <br>
+    <fieldset class="line">
+        <legend class="Casilla">Adicionales</legend>
+        <div class="form">
+
+          <label for="name">¿Por qué desea adoptar una mascota?</label>
+          <br>
+          <br>
+          <textarea name="texto" rows="6" cols="40" placeholder="Escriba sus razones"></textarea>
+          <br>
+          <br>
+          <label for="name">¿Está de acuerdo en que se haga una visita periodica a su domicilio para darle seguimiento al proceso de adaptación así como del estado actual de la mascota?</label>
+          <br>
+          <br>
+          <input type="radio" id="Choice1" name="contact" value="si" />
+            <label for="contactChoice1">Sí</label>
+            <input type="radio" id="Choice2" name="contact" value="no" />
+            <label for="contactChoice1">No</label>
+        <br>
+        <br>
+        <label for="name">¿Por qué?</label>
+        <br>
+          <textarea name="texto" rows="6" cols="40" placeholder="Escriba sus razones"></textarea>
+          <br>
+          <br>
+        </div>
+    </fieldset>
+    <br>
+    <br>
+        </form>
+        
+
+</body>
+</html>
