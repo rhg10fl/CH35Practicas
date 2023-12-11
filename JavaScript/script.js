@@ -23,6 +23,7 @@ console.log("multiplicación:" + (numero1 * numero2));
 console.log("division:" + (numero1 / numero2));
 */
 
+/*
 var edad = prompt("Bienvenido al bar. Ingresa tu edad");
 
 if (edad <18)  {
@@ -34,6 +35,7 @@ if (edad >= 18 && edad <=65)  {
 if (edad >65)  {
     alert("Demasiado viejo hermano, No puedes pasar");
 }
+*/
 
 /*var edad = prompt("Bienvenido al bar. Ingresa tu edad");
 
@@ -59,3 +61,27 @@ if (edad>40) {
   }else if(edad<18){
     alert("HOLA, " + nombre + " eres un chavo");
   }*/
+
+  //Clase 08 de diciembre con Fer
+
+  //TIPOS DE DATOS Y VARIABLES
+
+  //scope es el alcance de nuestras variables
+
+  /*var, let, const la diferencia es el alcance
+  var tiene un alcance global
+  let tiene un alcance local
+  const se mantiene sin ningun cambio*/
+
+  /*string:cadena de texto(lleva comillas)
+  number: número
+  noolena: true/false
+  nulll:nulo
+  undefined: no esta asignado o definido*/
+
+  let nombre = "Daniel";
+  let invitadosExtras = 2;
+  let esMayorEdad = true;
+  let edad = 24;
+  let InvitadoEspecial = null;
+  let horaDeSalida = undefined;
