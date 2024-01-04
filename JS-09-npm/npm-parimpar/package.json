@@ -1,0 +1,17 @@
+{
+  "name": "packagejsonrh",
+  "version": "1.0.0",
+  "description": "Permite desterminar si un número e sapr o impar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generation",
+    "parimapr",
+    "ch35"
+  ],
+  "author": "rhg10fl",
+  "license": "ISC"
+}

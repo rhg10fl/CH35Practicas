@@ -1,0 +1,28 @@
+body {
+    background-color: #B8A9D9;
+    color: #8C2A4E;
+    font-family: "Karla", sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 8px;
+    border-radius: 9px;
+    border: solid #421A35 1px;
+    background-color: #C7A2A5;
+    box-shadow: #663F42 0px 2px 6px 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7C568C;
+    color:#F2F2EB;
+    border: none;
+}

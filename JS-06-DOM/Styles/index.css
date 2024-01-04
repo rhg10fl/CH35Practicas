@@ -1,0 +1,61 @@
+a{
+   text-decoration: none; 
+   font-family: "'Karla', sans serif";
+   color: #4A2764;
+   font-size: 28px;
+   font-weight: 600;
+   border: dotted #52A5D9 3px;
+
+}
+
+body {
+    background-color: #E4EDCE;
+    color: #733D3D;
+    font-family: 'Karla', sans-serif;
+}
+
+#card-btn {
+    background-color: #C0A2D6;
+    border: none;
+    color: #444373;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#name {
+    height: 25px;
+    padding: 5px;
+}
+
+#btn-main {
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: solid #2E2F3A 2px;
+    font-size: 13px;
+    background-color: #400A2D;
+    color: #D6D6D6;
+}
+
+.profile {
+    background-color: #C0A2D6;
+    border-radius: 5px;
+    border: solid #54475E 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+#correo {
+    height: 25px;
+    padding: 5px;
+}

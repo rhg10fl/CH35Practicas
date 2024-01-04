@@ -1,0 +1,67 @@
+// Función que me permita manipular la variable de tipo null
+//Quiero traer name, username, email, phone del user de la API
+const mostrarDatos = (post) => {
+    //Creando nodos (elementos) mediante DOM Manipulation
+    const name = document.createElement("h2");
+    const userName = document.createElement("h3");
+    const email = document.createElement("p");
+    const phone = document.createElement("p");
+
+    //Ponerlos en el HTML (innerHTML)
+    name.innerHTML = post.name;
+    userName.innerHTML = post.username;
+    email.innerHTML = post.email;
+    phone.innerHTML = post.phone;
+
+    //Hacer que aparezcan en el navegador 
+    info.appendChild(name);
+    info.appendChild(userName);
+    info.appendChild(email);
+    info.appendChild(phone);
+}
+//****************** 
+//Usando fetch para mostrar en navegador (MOSTRAS PRODUCTOS)
+const botonProductos = document.querySelector("#btn-store");
+const tienda = document.querySelector("#store");
+let productos = null;
+
+botonProductos.addEventListener("click", () => {
+    fetch("https://fakestoreapi.com/products")
+    .then(response => response.json())
+    .then(response => {
+        productos = response;
+        //Función por definir
+        mostrarProductos(productos);
+    })
+    .catch(error => console.error("¡Cuidado!", error))
+});
+
+//Función para crear, agregar y mostrar elementos desde el DOM
+const mostrarProductos = (productos) => {
+    //mando a llamar las llaves de tilde, price, description, category, image desde la API
+    productos.map((productos) => {
+    const imagen = document.createElement("img");
+    const titulo = document.createElement("h2");
+    const precio = document.createElement("h3");
+    const descripcion = document.createElement("p");
+    const categoria = document.createElement("p");
+    const separador = document.createElement("hr");
+
+    //Enviar a HTML con inneHTML
+    imagen.src = productos.image;
+    imagen.width = 200;
+    titulo.innerHTML = productos.title;
+    precio.innerHTML = productos.price;
+    descripcion.innerHTML = productos.description;
+    categoria.innerHTML = productos.category;
+    
+    //mostralos en navegador al agregarlos a su padre
+        tienda.appendChild(imagen);
+        tienda.appendChild(titulo);
+        tienda.appendChild(precio);
+        tienda.appendChild(descripcion);
+        tienda.appendChild(categoria);
+        tienda.appendChild(separador);
+
+    })
+}
