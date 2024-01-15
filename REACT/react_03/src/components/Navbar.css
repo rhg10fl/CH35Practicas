@@ -1,0 +1,40 @@
+.navbar--container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    overflow: hidden;
+    background-color: #D9B4CF;
+    background-image: linear-gradient(225deg, #c07ecf 0%, #6d9bbe 50%, #d9a9a9 100%);
+}
+
+.navbar--title {
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    display: flex;
+    align-items: center;
+    font-family: Copperplate, fantasy;
+    color: #D93341;
+}
+
+.navbar--links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.navbar--link {
+    padding: 5px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #723C78;
+}
