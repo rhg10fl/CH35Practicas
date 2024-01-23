@@ -1,0 +1,48 @@
+Eveida Palos - 3/5
+...
+HTML
+________________________________________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>APIs</title>
+</head>
+<body>
+    <p class="name"></p>
+    <p class="blog"></p>
+    <p class="location"></p> <!--Se agrega-->
+    
+
+  <script src="./assets/js/app.js"></script> <!--se corrije el link-->
+</body>
+</html>
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+JS
+________________________________________________________________________________________________
+const baseEndpoint = 'https://api.github.com';
+const usersEndpoint = `${baseEndpoint}/users`;
+const $n = document.querySelector('.name'); /*-- se agrega un punto */
+const $b = document.querySelector('.blog'); /*-- se agrega un punto y se quita el gato */
+const $l = document.querySelector('.location');
+
+ async function displayUser(username) { /* se agrega async a la función*/
+  $n.textContent = 'cargando...';
+  const data = await fetch(`${usersEndpoint}/${username}`); /*cambiamos response por data*/
+  console.log(data);
+  $n.textContent = `${data.type}`; /*cambiamos name por type*/
+  $b.textContent = `${data.url}`; /*cambiamos blog por url*/
+  $l.textContent = `${data.redirected}`; /*cambiamos location por redirected*/
+}
+
+function handleError(err) {
+  console.log('OH NO!');
+  console.log(err);
+  n.textContent = `Algo salió mal: ${err}`
+}
+
+displayUser('stolinski').catch(handleError);
