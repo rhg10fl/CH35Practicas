@@ -1,0 +1,26 @@
+package operadoresLogicos;
+
+public class EjerciciosOperadores {
+	public static void main(String[] args) {
+
+		/*
+		 && OPERADOR AND 
+		 devuelve true si ambas expresiones son verdaderas 
+		 || OPERADOR OR 
+		 devuelve true si almenos una de las dos condiciones se cumple 
+		 ! OPERADOR
+		 NOT si la expresion booleana es flase devuelve true y viceversa
+		 */
+		
+		//&& and
+		
+		int anios = 5;
+		
+		boolean esInfante = true; 
+		
+		boolean costoInfante = anios <= 12 && esInfante;
+		
+		System.out.println("Es peque " + costoInfante);
+
+}
+}
