@@ -1,5 +1,11 @@
 package org.generation.revision4;
 
+/*
+ * Calificación de equipo:
+ * Cindy Rejón-En desarrollo 3/5
+ * Rocio Hernández-En desarrollo 3/5
+*/
+
 import java.util.Scanner; //importar scanner si se usa
 
 public class Ejercicio4 {
