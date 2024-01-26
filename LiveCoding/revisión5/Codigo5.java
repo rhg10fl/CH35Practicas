@@ -1,3 +1,6 @@
+/* Lizbeth Cerón 3/5
+ * Rocio Hernández 3/5
+ */
 package org.generation.livecoding;
 
 import java. util. Scanner; //Se debe importar el Scanner
