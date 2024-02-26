@@ -1,0 +1,5 @@
+package org.generation.umbrellaUser.exceptions;
+
+public class EmailNotFoundAdvice {
+
+}
